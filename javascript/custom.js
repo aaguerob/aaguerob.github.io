@@ -241,7 +241,7 @@
         function initMapsNormal() {
             var mapOptions = {
                 zoom: 17,
-                center: new google.maps.LatLng(51.5287352, -0.3817831),
+                center: new google.maps.LatLng(40.4165000, -3.7025600),
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
                 scrollwheel: false,
                 disableDefaultUI: false
@@ -357,7 +357,7 @@
                 })
                     .done(function () {
                         $('div#form-loader').fadeOut(500);
-                        Materialize.toast('Message Sent! I will contact you shortly, Thanks', 4000);
+                        Materialize.toast('¡Mensaje enviado! Te responderé lo antes posible, Gracias', 4000);
                         $("form#contact-form")[0].reset();
                         Materialize.updateTextFields(); // Rest floating labels
                         $("#submit").removeAttr('disabled', 'disabled'); // Enable submit button
@@ -365,7 +365,7 @@
                     })
                     .fail(function () {
                         $('div#form-loader').fadeOut(500);
-                        Materialize.toast('Sorry! Something Wrong, Try Again', 4000);
+                        Materialize.toast('Lo siento! Algo ha ido mal, prueba otra vez', 4000);
                         $("#submit").removeAttr('disabled', 'disabled'); // Enable submit button
                     });
             });
