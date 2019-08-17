@@ -1048,7 +1048,7 @@ body.scale-effect {
     /*vertical line for education in in min width 768 */
     left: 50%;
     margin-left: -2px;
-    height: 77.1%;
+    height: 73%;
     opacity: 0.4;
     background: #06A763; }
 
@@ -1056,7 +1056,7 @@ body.scale-effect {
     /*vertical line for experience in min width 768 */
     left: 50%;
     margin-left: -2px;
-    height: 72%;
+    height: 75%;
     opacity: 0.4;
     background: #06A763; }
 
