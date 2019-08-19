@@ -1954,6 +1954,9 @@ POPUP ANIMATIONS
  CONTACT SECTION
 -------------------------------------------------------------------------------*/
 /*contact section*/
+.logo-footer{
+  color:red;
+}
 #contact .card .card-content {
   /*form content*/ }
   #contact .card .card-content .input-field {
